@@ -1,4 +1,4 @@
-[![PowerShell Gallery Download Count](https://img.shields.io/powershellgallery/dt/SetEnv?label=downloads%20from%20PSGallery)](https://www.powershellgallery.com/packages/SetEnv)
+[![PowerShell Gallery Download Count](https://img.shields.io/powershellgallery/dt/SetEnv?color=green&label=downloads%20from%20PSGallery)](https://www.powershellgallery.com/packages/SetEnv)
 
 ## Introduction
 A PowerShell module that implements Set-EnvVar and Set-EnvPath
