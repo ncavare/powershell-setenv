@@ -11,7 +11,8 @@ Install-Module -Name SetEnv
 
 ##Usage of  Set-EnvVar
 ```powershell
- Set-EnvVar [-Name] <String> [-Value] <String> [[-Process] <Boolean>] [[-User] <Boolean>] [[-Machine] <Boolean>] [-NoBroadcast] [<CommonParameters>]
+ Set-EnvVar [-Name] <String> [-Value] <String> [[-Process] <Boolean>] [[-User] <Boolean>]
+     [[-Machine] <Boolean>] [-NoBroadcast] [<CommonParameters>]
 ```
     -Name :  The name of the environment variable
     -Parameter : The value of the environment variable
@@ -30,12 +31,15 @@ More Info
 
 ##Usage of  Set-EnvPath
 ```powershell
-Set-EnvPath [-Operation] <String> [-Path] <String> [[-Persist] <String>] [-CurrentProcess] [<CommonParameters>]
+Set-EnvPath [-Operation] <String> [-Path] <String> [[-Persist] <String>]
+   [-CurrentProcess] [<CommonParameters>]
 ```
     -Operation : The operation to be performed. (Add/Remove)
     -Path :  The path of the directory to be added to the PATH environment variable.
-    -Persist :  When Operation is Add: permamently set the PATH for either the current user ('User') or for the whole system  ('System').
-    -CurrentProcess :    When Operation is Add: specify this switch to add Path to the current PATH environment variable.
+    -Persist :  When Operation is Add: permamently set the PATH for either the current user ('User') 
+                or for the whole system  ('System').
+    -CurrentProcess :    When Operation is Add: specify this switch to add Path to the current 
+               PATH environment variable.
 
 ```powershell
     Set-EnvPath -Operation Remove -Path c:\php\php
