@@ -1,6 +1,6 @@
 @{
     RootModule = 'SetEnv.psm1'
-    ModuleVersion = '1.0.1'
+    ModuleVersion = '1.0.2'
     GUID = '66401b59-a949-435c-ab5e-6620b2ebe98d'
     Author = 'Nicolas Cavare'
     Description = 'A PowerShell module to configure EnvVar'
@@ -11,6 +11,7 @@
     PrivateData = @{
         PSData = @{
             Tags = 'env'
+            ProjectUri = 'https://github.com/ncavare/powershell-setenv'
             ReleaseNotes = ''
         }
    }
