@@ -1,15 +1,15 @@
 [![PowerShell Gallery Download Count](https://img.shields.io/powershellgallery/dt/SetEnv?label=downloads%20from%20PSGallery)](https://www.powershellgallery.com/packages/SetEnv)
 
-##Introduction
+## Introduction
 A PowerShell module that implements Set-EnvVar and Set-EnvPath
 
-##Installation
+## Installation
 
 ```powershell
 Install-Module -Name SetEnv
 ```
 
-##Usage of  Set-EnvVar
+## Usage of  Set-EnvVar
 ```powershell
  Set-EnvVar [-Name] <String> [-Value] <String> [[-Process] <Boolean>] [[-User] <Boolean>]
      [[-Machine] <Boolean>] [-NoBroadcast] [<CommonParameters>]
@@ -29,7 +29,7 @@ More Info
 ```
 
 
-##Usage of  Set-EnvPath
+## Usage of  Set-EnvPath
 ```powershell
 Set-EnvPath [-Operation] <String> [-Path] <String> [[-Persist] <String>]
    [-CurrentProcess] [<CommonParameters>]
